@@ -1,0 +1,111 @@
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    width:100%;
+    margin-left:0;
+    font-family:'Yuji Syuku'
+}
+h2 {
+    text-align:center;
+}
+
+
+.personal-info {
+    display:grid;
+    color:#ffffff;
+}
+.address-information {
+    display:grid;
+
+}
+.personal-info > input {
+    font-family: Yuji Syuku;
+    margin:0.2rem;
+    width:20rem;
+    height:2rem;
+    color:#ffffff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding-left: 0.5rem;
+    color: #4f364a ;
+    font-family:Yuji Syuku;
+}
+.personal-information > input {
+    font-family: Yuji Syuku;
+    color: #ffffff;
+}
+.personal-info > input::placeholder {
+    font-family:Yuji Syuku;
+    color: #4f364a ;
+}
+.payment-info-ccv-date >input::placeholder {
+    font-family:Yuji Syuku;
+    color: #4f364a ;
+}
+.payment-info-ccv-date >input {
+    font-family:Yuji Syuku;
+    margin:0.2rem;
+    width:9.8rem;
+    height:2rem;
+    color:#6C00FF;
+
+    border-radius: 5px;
+}
+input[type="date"] {
+    font-family:Yuji Syuku;
+    color: #4f364a ;
+    border-radius: 5px;
+    
+    
+}
+
+.payment-information {
+    display:grid;
+    
+}
+.checkout-button {
+    all:unset;
+    margin-top:1rem;
+    display:flex;
+    justify-content: center;
+    color:#ffffff;
+    border: 1px solid transparent;
+    align-items: center;
+    border-radius: 8px;
+    padding:8px;
+    background:  #fd0a54;
+    box-shadow: 0 0 5px #fd0a54, 0 0 10px #ffacc5, 0 0 10px #fd0a54;
+    
+}
+.checkout-button:hover{
+    cursor: pointer;
+}
+.warningmessage {
+    color:  #fd0a54;
+    text-align:center;
+}
+.addresspageheader {
+    color:   #ffffff;
+    font-size: 2rem;
+    font-family: 'Yuji Syuku';
+}
+.cart-summary {
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    color:   #ffffff;
+    font-size: 1.2rem;
+
+}
+.cart-summary > .cart-items-total {
+    justify-self:flex-end;
+    margin-bottom:4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .checkout-container{
+        display:grid;
+        width:100%;
+    }
+}

@@ -1,0 +1,61 @@
+.mainSection {
+    display:flex;
+    width:100vw;
+    justify-content:center;
+
+    align-items:center;
+}
+
+.welcome-page-rect {
+    width:30vw;
+    border-radius: 2.5rem;
+    height:75vh;
+    padding:2rem;
+    display:flex;
+    justify-self:center;
+}
+.welcome-page-rect >img {
+    width:500px;
+    height:393px;
+    padding:3rem;
+    margin:1rem;
+}
+.welcome-page-titles {
+    font-size:1.6rem;
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    align-items:center;
+    justify-content:center;
+    color:  #f3b8ca;
+    text-align:center;
+    margin-left:1rem;
+    position:absolute;
+    z-index: 1;
+}
+.header-magicverse-welcome {
+    font-size:3.5rem;
+    color:  #fff;
+    -webkit-text-stroke:1px #6C00FF;
+    text-stroke: 1.5px #6C00FF;
+    text-align:center;
+    
+}
+.magic-shop-btn {
+    all:unset;
+    padding:12px;
+    margin:1rem;
+    border-radius: 1rem;
+    width:13rem;
+    text-align:center;
+    color:  #fff;
+    background:  #fd0a54;
+    font-size:1.5rem;
+    box-shadow: 0 0 10px #fd0a54, 0 0 40px #fd0a54, 0 0 80px #fd0a54;
+}
+.magic-shop-btn:hover{
+    cursor:pointer;
+    background:#ffffff;
+    box-shadow: 0 0 10px #fd0a54, 0 0 40px #fd0a54, 0 0 80px #fd0a54 inset;
+    color:#240224;
+    
+}

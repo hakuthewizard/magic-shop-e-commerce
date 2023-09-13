@@ -1,0 +1,23 @@
+.magic-grid-container {
+    list-style:none;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns:repeat(5,1fr);
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    align-self:center;
+    width:100%;
+}
+@media only screen and (max-width: 768px) {
+    .magic-grid-container {
+
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .magic-item-price {
+        font-size:1.4rem;
+    }
+}

@@ -1,0 +1,15 @@
+.login-button-header{
+    display:grid;
+    background-color: #4f364a;
+    font-size:1.2rem;
+    width:6rem;
+    margin-top:0.7rem;
+    border-radius:1.2rem;
+   border:1px solid #6C00FF;
+   text-align:center;
+   color:   #fd0a54;
+   background:   #ffffff;
+}
+.login-button-header:hover {
+    background: #5DA480;
+}

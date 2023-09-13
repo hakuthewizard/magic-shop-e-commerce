@@ -1,0 +1,67 @@
+.login-form-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.login-form {
+    display:flex;
+    flex-direction:column;
+}
+.login-form-container>h2 {
+    color:  #ffffff;
+    font-size:2rem;
+}
+.login-form > input {
+    border:2px solid #ffffff;
+
+    width: fit-content;
+    background-color: transparent;
+    font-size:1.5rem;
+    font-family: 'Spicy Rice';
+   color: #ffffff;
+}
+.login-form > select {
+    border:2px solid transparent;
+    color: #4f364a ;
+    width: fit-content;
+    background-color: transparent;
+    font-size:1.5rem;
+    font-family: 'Spicy Rice';
+   color:  #ffffff;
+
+}
+.login-form > label {
+
+   
+    width: fit-content;
+    background-color: transparent;
+    font-size:1rem;
+    font-family: 'Spicy Rice';
+   color:  #ffffff;
+
+   margin-bottom:1rem;
+   margin-top:1rem;
+}
+.login-btn {
+    all:unset;
+        font-size:1.2rem;
+        width:6rem;
+        margin-top:0.7rem;
+        margin-bottom:0.7rem;
+        color: #F5F5DC;
+        border-radius:1.2rem;
+       border:1px solid #6C00FF;
+       text-align:center;
+
+       color:   #ffffff;
+       background:   #ffffff;
+       align-self:flex-end;
+}
+.login-btn:hover {
+    cursor:pointer;
+    background: #5DA480;
+}
+.usermessage {
+    color:  #ffffff;
+}

@@ -1,0 +1,83 @@
+.shopping-cart-main {
+    border-radius: 2.5rem;
+    margin-top:4rem;
+    display:flex;
+    justify-content:center;
+    font-family: 'Yuji Syuku';
+  
+}
+.shopping-cart-titles {
+    color:   #ffffff;
+    font-size: 1.5rem;
+    display:flex;
+    gap:3rem;
+
+}
+
+.shopping-cart-titles > h3 {
+   padding-top:4rem;
+   color:#ffc5d6;
+   font-size:1.2rem;
+
+
+}
+
+.shopping-cart-total-and-complete {
+    display:flex;
+    flex-direction:column;
+   align-items:flex-end;
+   margin-top:1rem;
+}
+.complete-order-btn {
+    all:unset;
+    border: 1.1px solid transparent;
+    border-radius: 1rem;
+    width:7rem;
+    text-align:center;
+    background:   #fd0a54;
+   color:   #ffffff;;
+    font-size:1.3rem;
+    margin-bottom:4rem;
+    font-family: 'Spicy Rice', cursive;
+    padding:0.5rem;
+    box-shadow: 0 0 10px #fd0a54, 0 0 20px #fd0a54, 0 0 60px #fd0a54;
+}
+
+.shopping-cart-total-and-complete >span {
+    text-align:center;
+    margin:1rem;
+    color:  #ffffff;
+    font-size:1.6rem;
+    font-family: 'Spicy Rice', cursive;
+}
+@media only screen and (max-width: 768px) {
+
+    .shopping-cart-total-and-complete {
+        display:flex;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        font-size:2rem;
+    
+    }
+    .shopping-cart-titles {
+        font-size:1.5rem;
+
+        display:flex;
+        justify-content:center;
+    
+     }
+        .shopping-cart-titles > h1{
+            font-size:2rem;
+          
+        }
+        .shopping-cart-titles > h3 {
+            display:none;
+        }
+}
+.complete-order-btn:hover {
+    cursor:pointer;
+    background:#ffffff;
+    box-shadow: 0 0 10px #fd0a54, 0 0 10px #fd0a54, 0 0 20px #fd0a54 inset;
+    color:#240224;
+}
