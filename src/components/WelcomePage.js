@@ -14,7 +14,7 @@ const WelcomePage = () => {
                 <span className='header-magicverse-welcome'>MAGICVERSE</span>
                 <span>Start Your Magical Journey!</span>
                 <NavLink style={{color: 'inherit', textDecoration: 'none' }} to="/magicshop"><button className='magic-shop-btn'>Magic Shop</button></NavLink>
-                <NavLink style={{color: 'inherit', textDecoration: 'none' }} to="/magicshop"><button className='magic-shop-btn'>Potion Recipes</button></NavLink>
+                <NavLink style={{color: 'inherit', textDecoration: 'none' }} to="/potionrecipes"><button className='magic-shop-btn'>Potion Recipes</button></NavLink>
             </div>
         </section>
         </div>
