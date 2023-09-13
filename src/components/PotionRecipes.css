@@ -1,0 +1,59 @@
+
+.potionsMainContainer {
+color: #fff;
+font-family: 'Yuji Syuku';
+margin:2rem;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.potionCards {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+
+}
+
+.potionCard {
+    margin:2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #fff;
+    color:#240224;
+    font-weight: bold;
+    padding:1rem;
+    border: 2px solid transparent;
+    border-radius:16px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.potioncardHeading {
+ text-align: center;
+ font-family: 'Spicy Rice';
+ font-size:1.8rem;
+ padding:0;
+ margin:0;
+}
+.potioncardIngridients{
+ list-style: none;
+}
+.potioncardIngridients li::before {
+    content: "✦"; 
+    display: inline-block;
+    margin-right: 5px;
+}
+.potioncardInstructions >li {
+    list-style-type: upper-roman;
+
+    margin-right: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .potionCards{
+    display:flex;
+    flex-direction: column;
+}
+}

@@ -3,7 +3,7 @@ import './MagicShopItems.css';
 import Header from "./Header";
 import MagicItem from "./MagicItem";
 import broom from './images/broom.png'
-import crystals from './images/crystals.png';
+import crystalball from './images/crystalball.png';
 import wand from './images/wand.png';
 import dice from './images/dice.png';
 import mirror from './images/mirror.png';
@@ -11,7 +11,7 @@ import sandclock from './images/sandclock.png';
 import tarot from './images/tarot.png';
 import tickets from './images/tickets.png';
 import magiclamp from './images/magiclamp.png';
-import cloak from './images/cloak.png';
+import wizardhat from './images/wizardhat.png';
 
 const dummyMagicItems = [
     {
@@ -24,9 +24,9 @@ const dummyMagicItems = [
     {
         id:2,
         name:'crytals',
-        description: 'crytals from the magic lands',
+        description: 'look into a crytal ball',
         price:12.99,
-        image: <img src={crystals}/>
+        image: <img src={crystalball}/>
     },
     {
         id:3,
@@ -79,10 +79,10 @@ const dummyMagicItems = [
     },
     {
         id:10,
-        name:'cloak',
+        name:'wizard hat',
         description: 'be the coolest wizard',
         price:25,
-        image: <img src={cloak}/>
+        image: <img src={wizardhat}/>
     },
    ]
 

@@ -75,7 +75,6 @@ input[type="date"] {
     border-radius: 8px;
     padding:8px;
     background:  #fd0a54;
-    box-shadow: 0 0 5px #fd0a54, 0 0 10px #ffacc5, 0 0 10px #fd0a54;
     
 }
 .checkout-button:hover{

@@ -9,15 +9,18 @@
     justify-self:center;
     margin:0.8rem;
     text-align:center;
-    box-shadow: 0 0 10px #fd0a54, 0 0 20px #fd0a54, 0 0 60px #fd0a54;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 10px rgba(238,174,202,1), 0 0 40px rgba(148,187,233,1) , 0 0 80px rgba(148,187,233,1) ;
 }
 .magic-add-to-cart:hover {
     cursor:pointer;
-    cursor:pointer;
-    box-shadow: 0 0 10px #fa85a8, 0 0 20px #fa85a8, 0 0 20px #fa85a8 inset;
-    color:#fff;
+    background:#ffffff;
+  
+    color:#240224;
 }
 .magic-item-form {
     font-size:1rem;
+    
     
 }

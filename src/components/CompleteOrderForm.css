@@ -53,9 +53,9 @@
         border-radius:1.2rem;
        border:1px solid #6C00FF;
        text-align:center;
-
-       color:   #ffffff;
-       background:   #ffffff;
+       background: rgb(238,174,202);
+       background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+       box-shadow: 0 0 10px rgba(238,174,202,1), 0 0 40px rgba(148,187,233,1) , 0 0 80px rgba(148,187,233,1) ;
        align-self:flex-end;
 }
 .login-btn:hover {

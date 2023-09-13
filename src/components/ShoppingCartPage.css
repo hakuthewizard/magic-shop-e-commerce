@@ -34,13 +34,13 @@
     border-radius: 1rem;
     width:7rem;
     text-align:center;
-    background:   #fd0a54;
-   color:   #ffffff;;
     font-size:1.3rem;
     margin-bottom:4rem;
     font-family: 'Spicy Rice', cursive;
     padding:0.5rem;
-    box-shadow: 0 0 10px #fd0a54, 0 0 20px #fd0a54, 0 0 60px #fd0a54;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 10px rgba(238,174,202,1), 0 0 40px rgba(148,187,233,1) , 0 0 80px rgba(148,187,233,1) ;
 }
 
 .shopping-cart-total-and-complete >span {
@@ -51,7 +51,12 @@
     font-family: 'Spicy Rice', cursive;
 }
 @media only screen and (max-width: 768px) {
-
+    .complete-order-btn{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
     .shopping-cart-total-and-complete {
         display:flex;
         text-align:center;
@@ -78,6 +83,6 @@
 .complete-order-btn:hover {
     cursor:pointer;
     background:#ffffff;
-    box-shadow: 0 0 10px #fd0a54, 0 0 10px #fd0a54, 0 0 20px #fd0a54 inset;
+  
     color:#240224;
 }

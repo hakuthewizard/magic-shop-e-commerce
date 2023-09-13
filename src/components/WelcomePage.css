@@ -47,10 +47,11 @@
     border-radius: 1rem;
     width:13rem;
     text-align:center;
-    color:  #fff;
-    background:  #fd0a54;
+    color:  #240224;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 0 0 10px rgba(238,174,202,1), 0 0 40px rgba(148,187,233,1) , 0 0 80px rgba(148,187,233,1) ;
     font-size:1.5rem;
-    box-shadow: 0 0 10px #fd0a54, 0 0 40px #fd0a54, 0 0 80px #fd0a54;
 }
 .magic-shop-btn:hover{
     cursor:pointer;

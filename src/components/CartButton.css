@@ -3,12 +3,13 @@
     justify-self:flex-end;
     position:absolute;
     background-color:#f598b4;
-    font-size:0.8rem;
+    font-size:0.5rem;
     color: #240224;
     padding-right: 0.5rem;
     margin:1rem;
     border-radius:0.8rem;
     box-shadow: 0 0 10px #fd0a54, 0 0 20px #fd0a54, 0 0 10px #f1326b;
+    margin-right:1.5rem;
   
 }
 
@@ -16,24 +17,27 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    border-radius:2rem;
-    width:2rem;
-    height:2rem;
+    border-radius:12px;
+    width:1.8rem;
+    height:1.8rem;
     text-align: center;
     background-color:#240224;
-    font-size:1.3rem;
-    color:#fff;
+    font-size:1.2rem;
+    color:#ff7ba3;
     margin:0.5rem;
-    font-family: 'Spicy Rice';
+    align-self: center;
 }
 .header-left-cart{
     display:flex;
     align-self:center;
     padding:0.3rem;
-    font-size:1.4rem;
-
+    font-size:1rem;
+    margin-right:1rem;
 }
 
 .header-left:hover {
-    box-shadow: 0 0 10px #fd0a54, 0 0 20px #fd0a54, 0 0 40px #f1326b inset;
+    cursor:pointer;
+    background:#ffffff;
+  
+    color:#240224;
 }
